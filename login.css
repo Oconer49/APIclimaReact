@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://i.postimg.cc/fRLtm7pN/clima-2.jpg');
+    background-size: cover; 
+    background-position: center; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    color: white;
+  }
+  
+      .top-bar {
+        width: 100%;
+        height: 50px;
+        background-color: #333;
+        display: flex;
+        align-items: center;
+        padding: 0 20px;
+        box-sizing: border-box;
+        position: absolute;
+        top: 0;
+      }
+  
+      .top-bar img {
+        height: 30px;
+        width: auto;
+      }
+  
+      
+      .wrapper {
+        width: 350px;
+        height: 450px;
+        background-color: #ffffff;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+        position: relative;
+        transform: translateY(50px);
+      }
+  
+    
+      .forms-container {
+        display: flex;
+        width: 200%;
+        height: 100%;
+        transition: transform 0.5s ease-in-out;
+      }
+  
+      .wrapper.register-mode .forms-container {
+        transform: translateX(-50%);
+      }
+  
+      /* Forms */
+      .form {
+        width: 50%;
+        padding: 20px 30px;
+        text-align: center;
+      }
+  
+      /* Title */
+      .form h1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+        color: #333;
+      }
+  
+      /* Input Styles */
+      .form input {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        font-size: 16px;
+      }
+  
+      .form input:focus {
+        outline: none;
+        border-color: #4A90E2;
+      }
+  
+      /* Button Styles */
+      .form button {
+        background-color: #27AE60;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        width: 100%;
+        margin-top: 10px;
+      }
+  
+      .form button:hover {
+        background-color: #219653;
+      }
+  
+      .form p {
+        margin-top: 20px;
+        font-size: 14px;
+      }
+  
+      .form a {
+        color: #4A90E2;
+        text-decoration: none;
+        cursor: pointer;
+      }
+  
+      .form a:hover {
+        text-decoration: underline;
+      }
